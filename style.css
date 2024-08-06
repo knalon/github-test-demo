@@ -1,0 +1,23 @@
+.title{
+    text-align: center;
+    
+}
+.gridholder{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    border: 1px solid black;
+}
+.imgholder{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.gridholder2{
+    display:grid;
+    grid-template-columns: 1fr 5fr;
+    grid-column-gap: 10px;
+}
+.image{
+    width: 98%;
+}
